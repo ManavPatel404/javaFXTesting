@@ -3,14 +3,34 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
-   <children>
-      <Label text="Label" />
-      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
-         <children>
-            <Label text="Label" />
-         </children>
-      </HBox>
-   </children>
-</VBox>
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Untitled Tab 1">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <GridPane layoutY="-2.0" prefHeight="221.0" prefWidth="600.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="314.0" minWidth="10.0" prefWidth="301.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="337.0" minWidth="10.0" prefWidth="299.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="87.99999618530273" minHeight="0.0" prefHeight="31.333332379659016" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="150.33333667119342" minHeight="0.0" prefHeight="39.33333333333333" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="182.0" minHeight="10.0" prefHeight="24.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="201.00000762939453" minHeight="0.0" prefHeight="35.3333257039388" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="230.0" minHeight="0.0" prefHeight="51.33334096272786" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="230.0" minHeight="10.0" prefHeight="64.66668192545572" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="230.0" minHeight="8.999998092651367" prefHeight="75.33331807454428" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                  </GridPane>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Untitled Tab 2">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
