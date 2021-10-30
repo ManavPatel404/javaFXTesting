@@ -1,4 +1,4 @@
-package sample;
+package rostercollection;
 
 public class Controller {
 }
